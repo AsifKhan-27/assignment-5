@@ -1,4 +1,4 @@
-console.log('add-players');
+// console.log('add-players');
 
 function numberOfPlayers(listId){
 	// const nodeList=document.getElementById(listId).childNodes;
@@ -7,7 +7,7 @@ function numberOfPlayers(listId){
 	return number;
 }
 
-console.log(numberOfPlayers('player-list'));
+// console.log(numberOfPlayers('player-list'));
 
 function addPlayerToList(playerName){
 	// get players list element

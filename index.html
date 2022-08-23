@@ -91,15 +91,15 @@
 					<h4 class="font-bold text-2xl text-center my-3">Budget</h4>
 					<!-- Per Player -->
 					<h4 class="mr-3 inline">Per Player</h4>
-					<input type="" class="bg-black border-2 border-white">
+					<input id="per-player-budget" type="text" class="bg-black border-2 border-white">
 					<!-- Calculate Btn -->
 					<div class="flex justify-center">
-						<button class="bg-sky-700 my-5 py-2 px-16 text-white font-semibold">Calculate</button>
+						<button id="calculate-btn" class="bg-sky-700 my-5 py-2 px-16 text-white font-semibold">Calculate</button>
 					</div>
 					<!-- Player Expenses -->
 					<div class="my-3">
 						<h4 class="mr-8 inline">Player Expenses</h4>
-						<h4 class="inline">$5000</h4>
+						<h4 class="inline">$<span id="player-expenses">5000</span></h4>
 					</div>
 					<!-- Manager -->
 					<div class="my-3">
@@ -127,5 +127,6 @@
 		</section>
 	</main>
 	<script src="js/add-players.js"></script>
+	<script src="js/calculate-budget.js"></script>
 </body>
 </html>
